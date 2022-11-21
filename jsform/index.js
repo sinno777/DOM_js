@@ -3,9 +3,18 @@ function getEle(id) {
 }
 
 function checkValidation() {
-    var firstName = getEle("firstName").value;
-    if (firstName === "") {
-        getEle("error_firstName").innerHTML = "Non validated first name";
+    let firstName = getEle("firstName");
+    firstName = firstName.value;
+    checkInvalid(firstName, 'error_firstName', "firstName");
+}
+
+function checkInvalid(value, selectedError, nameFix) {
+    if (value.trim() === "") {
+        getEle(selectedError).innerHTML = nameFix + " can't empty!"
+        return false;
+    } else {
+        getEle(selectedError).innerHTML = "";
+        return true;
     }
 }
 

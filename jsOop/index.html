@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>jsOOP</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="jsOOP container-fluid">
+        <div class="row">
+            <div class="col-6">
+                <div class="manage_stu ">
+                    <h3 class="display-4 text-center">Manage Student</h3>
+                    <div class="form-group">
+                        <p>Id Student:</p>
+                        <input id="idStu" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <p>Name Student:</p>
+                        <input id="nameStu" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <p>Type Student:</p>
+                        <select id="typeStu" class="form-control">
+                            <option>Nomal</option>
+                            <option>Different</option>
+                        </select>
+                    </div>
+                    <div class="subJect row">
+                        <div class="form-group col-4">
+                            <p>Math:</p>
+                            <input id="math" class="form-control">
+                        </div>
+                        <div class="form-group col-4">
+                            <p>Physical:</p>
+                            <input id="physical" class="form-control">
+                        </div>
+                        <div class="form-group col-4">
+                            <p>Chemistry:</p>
+                            <input id="chemistry" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <p>Mark training:</p>
+                        <input id="trainingMark" class="form-control">
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-6">
+                <div class="info_stu ">
+                    <h3 class="display-4 text-center">Informations Student</h3>
+                    <p>Full name: <span id="showName" class="font-weight-bold"></span></p>
+                    <p>Id: <span id="showid" class="font-weight-bold"></span></p>
+                    <p>Type: <span id="showType" class="font-weight-bold"></span></p>
+                    <p>Average: <span id="showAverage" class="font-weight-bold"></span></p>
+                    <p>Arrange level: <span id="showLevel" class="font-weight-bold"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <script src="app.js"></script>
+</body>
+
+</html>
