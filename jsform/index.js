@@ -1,5 +1,5 @@
 function getEle(id) {
-    document.getElementById(id);
+    return document.getElementById(id);
 }
 
 function checkValidation() {
